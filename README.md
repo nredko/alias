@@ -22,5 +22,8 @@ The following commands are the same:
 	> bash -c 'git status'
 	> git status
 ```
+
+Download alias.exe
+
  (c) 2016, nredko
 
