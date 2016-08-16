@@ -23,7 +23,7 @@ The following commands are the same:
 	> git status
 ```
 
-Download alias.exe
+Download [alias.exe](https://github.com/nredko/alias/raw/master/alias.exe)
 
  (c) 2016, nredko
 
