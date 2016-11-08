@@ -62,7 +62,7 @@ void _tmain(int argc, TCHAR *argv[])
 	TCHAR* ptr1 = lpCmd;
 	for (ptr = command; *ptr != '.'; *ptr1++ = *ptr++);
 	*ptr = 0;
-	StringCchPrintf((LPTSTR)lpBuf,	LocalSize(lpBuf) / sizeof(TCHAR), TEXT("bash -c '%s%s'"),	lpCmd, cmdl);
+	StringCchPrintf((LPTSTR)lpBuf,	LocalSize(lpBuf) / sizeof(TCHAR), TEXT("bash -c \"%s%s\""),	lpCmd, cmdl);
 	ZeroMemory(&si, sizeof(si));
 	si.cb = sizeof(si);
 	
